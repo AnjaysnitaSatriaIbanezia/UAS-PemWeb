@@ -1,0 +1,50 @@
+ERROR - 2021-12-16 00:34:06 --> Error connecting to the database: Unknown database 'aplikasi-pegawai'
+CRITICAL - 2021-12-16 00:34:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'aplikasi-pegawai'
+#0 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\app\Controllers\Register.php(33): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#7 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-16 03:43:09 --> Invalid file: About_view.php
+#0 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('About_view.php')
+#1 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Common.php(1092): CodeIgniter\View\View->render('About_view', Array, true)
+#2 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\app\Controllers\About.php(12): view('About_view')
+#3 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\About->index()
+#4 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 03:46:10 --> Invalid file: About_view.php
+#0 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('About_view.php')
+#1 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Common.php(1092): CodeIgniter\View\View->render('About_view', Array, true)
+#2 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\app\Controllers\About.php(12): view('About_view')
+#3 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\About->index()
+#4 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 11:33:52 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Common.php(1092): CodeIgniter\View\View->render('contact_view', Array, true)
+#2 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\app\Controllers\Contact.php(12): view('contact_view')
+#3 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Contact->index()
+#4 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#5 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 11:34:36 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\Common.php(1092): CodeIgniter\View\View->render('contact_view', Array, true)
+#2 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\app\Controllers\Contact.php(12): view('contact_view')
+#3 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Contact->index()
+#4 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#5 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ibane\Downloads\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

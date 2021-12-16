@@ -1,0 +1,96 @@
+ERROR - 2021-11-15 21:08:34 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+CRITICAL - 2021-11-15 21:08:34 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+#0 C:\laragon\www\aplikasi-pegawai\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\aplikasi-pegawai\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\aplikasi-pegawai\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\aplikasi-pegawai\app\Models\PegawaiModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\aplikasi-pegawai\app\Controllers\Pegawai.php(15): App\Models\PegawaiModel->getPegawai()
+#8 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Pegawai->index()
+#9 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-15 21:13:25 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+CRITICAL - 2021-11-15 21:13:25 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+#0 C:\laragon\www\aplikasi-pegawai\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\aplikasi-pegawai\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\aplikasi-pegawai\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\aplikasi-pegawai\app\Models\PegawaiModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\aplikasi-pegawai\app\Controllers\Pegawai.php(15): App\Models\PegawaiModel->getPegawai()
+#8 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Pegawai->index()
+#9 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-15 21:13:27 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+CRITICAL - 2021-11-15 21:13:27 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+#0 C:\laragon\www\aplikasi-pegawai\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\aplikasi-pegawai\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\aplikasi-pegawai\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\aplikasi-pegawai\app\Models\PegawaiModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\aplikasi-pegawai\app\Controllers\Pegawai.php(15): App\Models\PegawaiModel->getPegawai()
+#8 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Pegawai->index()
+#9 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-15 21:15:00 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+CRITICAL - 2021-11-15 21:15:00 --> Table 'aplikasi-pegawai.pegawais' doesn't exist
+#0 C:\laragon\www\aplikasi-pegawai\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\aplikasi-pegawai\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\aplikasi-pegawai\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\aplikasi-pegawai\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\aplikasi-pegawai\app\Models\PegawaiModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\aplikasi-pegawai\app\Controllers\Pegawai.php(15): App\Models\PegawaiModel->getPegawai()
+#8 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Pegawai->index()
+#9 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#10 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-15 21:24:56 --> include(view_header.php;): failed to open stream: No such file or directory
+#0 C:\laragon\www\aplikasi-pegawai\app\Views\view_pegawai_list.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(view_he...', 'C:\\laragon\\www\\...', 1, Array)
+#1 C:\laragon\www\aplikasi-pegawai\app\Views\view_pegawai_list.php(1): include()
+#2 C:\laragon\www\aplikasi-pegawai\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\aplikasi-pegawai\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\aplikasi-pegawai\system\Common.php(1092): CodeIgniter\View\View->render('view_pegawai_li...', Array, true)
+#5 C:\laragon\www\aplikasi-pegawai\app\Controllers\Pegawai.php(17): view('view_pegawai_li...', Array)
+#6 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Pegawai->index()
+#7 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#8 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-15 21:24:58 --> include(view_header.php;): failed to open stream: No such file or directory
+#0 C:\laragon\www\aplikasi-pegawai\app\Views\view_pegawai_list.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(view_he...', 'C:\\laragon\\www\\...', 1, Array)
+#1 C:\laragon\www\aplikasi-pegawai\app\Views\view_pegawai_list.php(1): include()
+#2 C:\laragon\www\aplikasi-pegawai\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\aplikasi-pegawai\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\aplikasi-pegawai\system\Common.php(1092): CodeIgniter\View\View->render('view_pegawai_li...', Array, true)
+#5 C:\laragon\www\aplikasi-pegawai\app\Controllers\Pegawai.php(17): view('view_pegawai_li...', Array)
+#6 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Pegawai->index()
+#7 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#8 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-15 21:24:59 --> include(view_header.php;): failed to open stream: No such file or directory
+#0 C:\laragon\www\aplikasi-pegawai\app\Views\view_pegawai_list.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(view_he...', 'C:\\laragon\\www\\...', 1, Array)
+#1 C:\laragon\www\aplikasi-pegawai\app\Views\view_pegawai_list.php(1): include()
+#2 C:\laragon\www\aplikasi-pegawai\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\aplikasi-pegawai\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\aplikasi-pegawai\system\Common.php(1092): CodeIgniter\View\View->render('view_pegawai_li...', Array, true)
+#5 C:\laragon\www\aplikasi-pegawai\app\Controllers\Pegawai.php(17): view('view_pegawai_li...', Array)
+#6 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(802): App\Controllers\Pegawai->index()
+#7 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#8 C:\laragon\www\aplikasi-pegawai\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\aplikasi-pegawai\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
